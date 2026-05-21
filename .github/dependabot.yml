@@ -1,0 +1,8 @@
+version: 2
+updates:
+  # Configuración para las dependencias de Maven (pom.xml)
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly" # Revisa actualizaciones cada semana
+    open-pull-requests-limit: 5 # Máximo 5 PRs abiertos a la vez
